@@ -4,7 +4,7 @@
   "description": "Demo app for Jenkins Docker CI/CD",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
+    "start": "node server.js",
     "test": "jest --forceExit --detectOpenHandles"
   },
   "dependencies": {
@@ -15,3 +15,4 @@
     "supertest": "^6.3.3"
   }
 }
+

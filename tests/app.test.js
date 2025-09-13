@@ -14,3 +14,4 @@ describe('App Tests', () => {
     expect(response.body.status).toBe('healthy');
   });
 });
+
